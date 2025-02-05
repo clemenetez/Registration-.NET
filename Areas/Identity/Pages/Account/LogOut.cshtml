@@ -1,0 +1,27 @@
+﻿@page
+@model Registration.Areas.Identity.Pages.Account.LogOutModel
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewData["Title"] = "Вихід";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card shadow">
+                <div class="card-header bg-danger text-white">
+                    <h3 class="mb-0 text-center">@ViewData["Title"]</h3>
+                </div>
+                <div class="card-body">
+                    <div class="alert alert-success text-center" role="alert">
+                        Ви успішно вийшли з системи!
+                    </div>
+
+                    <div class="text-center">
+                        <a href="@Url.Page("/Account/Login")" class="btn btn-primary w-100">Увійти знову</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
