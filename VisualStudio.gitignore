@@ -3,6 +3,10 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/main/VisualStudio.gitignore
 
+
+# bd connect
+appsettings.json
+
 # User-specific files
 *.rsuser
 *.suo
@@ -64,7 +68,6 @@ artifacts/
 
 # ASP.NET Scaffolding
 ScaffoldingReadMe.txt
-appsettings.json
 
 # StyleCop
 StyleCopReport.xml
